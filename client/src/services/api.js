@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 // Define the base URL of the backend API
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://user-management-dashboard-nhme.onrender.com/api/users';
 
 // Get all users with pagination
 export const getUsers = async (page) => {
